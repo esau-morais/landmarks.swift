@@ -41,11 +41,9 @@ struct LandmarkDetail: View {
           Text(landmark.state)
         }
         .font(.subheadline)
-        .foregroundColor(.secondary)
-        
+        .foregroundStyle(.secondary)
         
         Divider()
-        
         
         Text("About \(landmark.name)")
           .font(.title2)

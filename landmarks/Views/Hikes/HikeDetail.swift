@@ -27,7 +27,7 @@ struct HikeDetail: View {
           } label: {
             Text(value.0)
               .font(.system(size: 15))
-              .foregroundColor(value.1 == dataToShow
+              .foregroundStyle(value.1 == dataToShow
                                ? .gray
                                : .accentColor)
               .animation(nil)
