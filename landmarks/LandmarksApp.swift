@@ -2,13 +2,13 @@
 //  landmarksApp.swift
 //  landmarks
 //
-//  Created by PDS on 01/09/23.
+//  Created by Esau Morais on 01/09/23.
 //
 
 import SwiftUI
 
 @main
-struct landmarksApp: App {
+struct LandmarksApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
